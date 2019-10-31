@@ -1,0 +1,15 @@
+.pane {
+    border: solid 1px #ccc;
+    border-top: none;
+    overflow: hidden;
+    padding: 1em 1em 0;
+}
+
+// Variations
+:host-context(saa-modal.color--02) {
+
+    .pane {
+        border-color: white;
+    }
+
+}

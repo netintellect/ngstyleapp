@@ -1,16 +1,39 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {AppComponent} from './app.component';
+import {PromoComponent} from './promo/promo.component';
+import {AccordionComponent} from './shared/components/content/accordion/accordion.component';
+import {AccordionPaneComponent} from './shared/components/content/accordion/accordion-pane.component';
+import {TabsComponent} from './shared/components/content/tabs/tabs.component';
+import {TabsPaneComponent} from './shared/components/content/tabs/tabs-pane.component';
+import {ThumbnailListComponent} from './shared/components/content/thumbnail-list/thumbnail-list.component';
+import {MessageComponent} from './shared/components/content/message/message.component';
+import {NavBarPrimaryComponent} from './shared/components/navigation/navbar-primary/navbar-primary.component';
+import {NavBarSecondaryComponent} from './shared/components/navigation/navbar-secondary/navbar-secondary.component';
+import {PillsComponent} from './shared/components/navigation/pills/pills.component';
+import {ModalComponent} from './shared/components/popups/modal/modal.component';
+import {ToolTipComponent} from './shared/components/popups/tooltip/tooltip.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  declarations: [
+    AppComponent,
+    PromoComponent,
+    AccordionComponent,
+    AccordionPaneComponent,
+    TabsComponent,
+    TabsPaneComponent,
+    MessageComponent,
+    ThumbnailListComponent,
+    NavBarPrimaryComponent,
+    NavBarSecondaryComponent,
+    PillsComponent,
+    ModalComponent,
+    ToolTipComponent
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

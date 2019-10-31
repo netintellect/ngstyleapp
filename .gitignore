@@ -32,7 +32,7 @@ speed-measure-plugin*.json
 .history/*
 
 # misc
-/.sass-cache
+.sass-cache
 /connect.lock
 /coverage
 /libpeerconnection.log
@@ -44,3 +44,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Generated files
+src/**/*.css
+src/**/*.css.map
+!src/assets
+
